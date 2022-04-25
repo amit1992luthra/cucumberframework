@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-25T04:58:08.678Z",
+        "line": 4,
+        "name": "Verify my profile page",
+        "description": "",
+        "id": "my-profile-feature;verify-my-profile-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)\r\n\tat ✽.User navigated to the Login page(file:src/test/java/features/myprofile.feature:5)\r\n",
+              "duration": 3231700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigated to the Login page",
+            "match": {
+              "location": "stepdefinationclass.user_navigated_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click on My profile",
+            "match": {
+              "location": "myprofilestepdefination.click_on_My_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Error message displayed",
+            "match": {
+              "location": "stepdefinationclass.error_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Profile feature",
+    "description": "  i want to access the options under myprofile",
+    "id": "my-profile-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/myprofile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-25T04:58:08.689Z",
+        "line": 11,
+        "name": "Verify Facebook Login page",
+        "description": "",
+        "id": "signin-feature;verify-facebook-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)\r\n\tat ✽.User navigated to the Login page(file:src/test/java/features/signin.feature:5)\r\n",
+              "duration": 206800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigated to the Login page",
+            "match": {
+              "location": "stepdefinationclass.user_navigated_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter Username \"abc\" and password \"abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"abcd1234\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinationclass.enter_Username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Error message displayed",
+            "match": {
+              "location": "stepdefinationclass.error_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-25T04:58:08.691Z",
+        "line": 21,
+        "name": "Verify Facebook Login page",
+        "description": "",
+        "id": "signin-feature;verify-facebook-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)\r\n\tat ✽.User navigated to the Login page(file:src/test/java/features/signin.feature:15)\r\n",
+              "duration": 213700,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User navigated to the Login page",
+            "match": {
+              "location": "stepdefinationclass.user_navigated_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Enter Username \"abc\" and password \"abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"abcd1234\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinationclass.enter_Username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Error message displayed",
+            "match": {
+              "location": "stepdefinationclass.error_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Signin feature",
+    "description": "  I want to signin in my portal",
+    "id": "signin-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/signin.feature",
+    "tags": []
+  }
+]
