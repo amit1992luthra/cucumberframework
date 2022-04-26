@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.007311">
-<testcase classname="My Profile feature" name="Verify my profile page" time="0.00612">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)&#13;&#10;&#9;at ✽.User navigated to the Login page(file:src/test/java/features/myprofile.feature:5)&#13;&#10;"><![CDATA[Given User navigated to the Login page......................................failed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.004971">
+<testcase classname="My Profile feature" name="Verify my profile page" time="0.004971">
+<system-out><![CDATA[Given User navigated to the Login page......................................skipped
 And click on My profile.....................................................skipped
 Then Error message displayed................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)
-	at ✽.User navigated to the Login page(file:src/test/java/features/myprofile.feature:5)
-]]></failure>
-</testcase>
-<testcase classname="Signin feature" name="Verify Facebook Login page" time="0.000624">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)&#13;&#10;&#9;at ✽.User navigated to the Login page(file:src/test/java/features/signin.feature:5)&#13;&#10;"><![CDATA[Given User navigated to the Login page......................................failed
-And Enter Username "abc" and password "abcd1234"............................skipped
-Then Error message displayed................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)
-	at ✽.User navigated to the Login page(file:src/test/java/features/signin.feature:5)
-]]></failure>
-</testcase>
-<testcase classname="Signin feature" name="Verify Facebook Login page 2" time="0.000567">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)&#13;&#10;&#9;at ✽.User navigated to the Login page(file:src/test/java/features/signin.feature:15)&#13;&#10;"><![CDATA[Given User navigated to the Login page......................................failed
-When Enter Username "abc" and password "abcd1234"...........................skipped
-Then Error message displayed................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefination.stepdefinationclass.user_navigated_to_the_Login_page(stepdefinationclass.java:23)
-	at ✽.User navigated to the Login page(file:src/test/java/features/signin.feature:15)
-]]></failure>
+]]></system-out>
 </testcase>
 </testsuite>

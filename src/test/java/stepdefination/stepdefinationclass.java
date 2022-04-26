@@ -8,6 +8,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import hooks.hooksclass;
+import junit.framework.Assert;
 
 public class stepdefinationclass {
 	
@@ -36,6 +37,12 @@ public class stepdefinationclass {
 		
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(5000);
+		
+		String Expected = "Enter an email or phone number";
+		String actual = driver.findElement(By.id("")).getText();
+		
+		Assert.assertEquals(Expected, actual);
+		
 		
 		
 		//System.out.println("my user name is "+username+" and my password is "+password);

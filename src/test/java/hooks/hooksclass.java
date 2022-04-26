@@ -17,7 +17,6 @@ public class hooksclass {
 		driver = new ChromeDriver();
 	}
 	
-	
 	@After
 	public void afterannotation()
 	{
